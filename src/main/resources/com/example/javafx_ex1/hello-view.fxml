@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<VBox alignment="CENTER" prefHeight="400.0" prefWidth="720.0" spacing="20.0" style="-fx-background-color: black;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="com.example.javafx_ex1.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="74.0" prefWidth="164.0" text="SIGN IN" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Consolas Bold" size="36.0" />
+         </font>
+      </Label>
+      <TextField maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="200.0" promptText="username">
+         <font>
+            <Font name="Consolas" size="18.0" />
+         </font>
+      </TextField>
+      <PasswordField maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="200.0" promptText="password">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <font>
+            <Font name="Consolas" size="18.0" />
+         </font>
+      </PasswordField>
+      <Button alignment="CENTER" contentDisplay="CENTER" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" style="-fx-background-color: black; -fx-border-color: #8B00FF; -fx-border-width: 2;" text="SIGN IN" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Consolas Bold" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</VBox>
