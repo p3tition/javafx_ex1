@@ -15,12 +15,12 @@
             <Font name="Consolas Bold" size="36.0" />
          </font>
       </Label>
-      <TextField id="username" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="200.0" promptText="username" text="p3tition">
+      <TextField fx:id="fxusername" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="200.0" promptText="username">
          <font>
             <Font name="Consolas" size="18.0" />
          </font>
       </TextField>
-      <PasswordField id="password" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="200.0" promptText="password" text="test1">
+      <PasswordField fx:id="fxpassword" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="200.0" promptText="password">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
