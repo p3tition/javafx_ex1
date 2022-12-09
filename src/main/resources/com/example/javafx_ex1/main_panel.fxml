@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="720.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx_ex1.HelloController">
+   <children>
+      <Label layoutX="112.0" layoutY="177.0" prefHeight="46.0" prefWidth="496.0" text="You're successfully login" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Consolas Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="316.0" layoutY="256.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#click" style="-fx-background-color: black; -fx-border-color: #8B00FF; -fx-border-width: 2;" text="LOG OUT" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Consolas Bold" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

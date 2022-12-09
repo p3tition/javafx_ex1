@@ -1,37 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
 <?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<VBox alignment="CENTER" prefHeight="400.0" prefWidth="720.0" spacing="20.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx_ex1.HelloController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-    </padding>
+<AnchorPane prefHeight="400.0" prefWidth="720.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="74.0" prefWidth="164.0" text="SIGN IN" textAlignment="CENTER" textFill="WHITE" wrapText="true">
-         <font>
-            <Font name="Consolas Bold" size="36.0" />
-         </font>
-      </Label>
-      <TextField fx:id="fxusername" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="200.0" promptText="username">
+      <PasswordField fx:id="fxpassword1" layoutX="260.0" layoutY="217.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="200.0" promptText="password">
          <font>
             <Font name="Consolas" size="18.0" />
          </font>
-      </TextField>
-      <PasswordField fx:id="fxpassword" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="200.0" promptText="password">
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
-         <font>
-            <Font name="Consolas" size="18.0" />
-         </font>
       </PasswordField>
-      <Button alignment="CENTER" contentDisplay="CENTER" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#click" style="-fx-background-color: black; -fx-border-color: #8B00FF; -fx-border-width: 2;" text="SIGN IN" textAlignment="CENTER" textFill="WHITE">
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="316.0" layoutY="286.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#click" style="-fx-background-color: black; -fx-border-color: #8B00FF; -fx-border-width: 2;" text="SIGN IN" textAlignment="CENTER" textFill="WHITE">
          <font>
             <Font name="Consolas Bold" size="16.0" />
          </font>
       </Button>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="278.0" layoutY="69.0" prefHeight="74.0" prefWidth="164.0" text="SIGN IN" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Consolas Bold" size="36.0" />
+         </font>
+      </Label>
+      <TextField fx:id="fxusername" layoutX="260.0" layoutY="164.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="200.0" promptText="username">
+         <font>
+            <Font name="Consolas" size="18.0" />
+         </font>
+      </TextField>
    </children>
-</VBox>
+</AnchorPane>
