@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
 <?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
 
 <AnchorPane prefHeight="400.0" prefWidth="720.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
@@ -16,12 +19,12 @@
             <Insets />
          </opaqueInsets>
       </PasswordField>
-      <Button fx:id="fxbutton1" alignment="CENTER" contentDisplay="CENTER" layoutX="325.0" layoutY="261.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" style="-fx-background-color: black; -fx-border-color: #8B00FF; -fx-border-width: 2;" text="LOGIN" textAlignment="CENTER" textFill="WHITE">
+      <Button fx:id="fxbutton1" alignment="CENTER" contentDisplay="CENTER" layoutX="316.0" layoutY="263.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" style="-fx-background-color: black; -fx-border-color: #8B00FF; -fx-border-width: 2;" text="SIGN UP" textAlignment="CENTER" textFill="WHITE">
          <font>
             <Font name="Consolas Bold" size="16.0" />
          </font>
       </Button>
-      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="278.0" layoutY="68.0" prefHeight="74.0" prefWidth="164.0" text="LOGIN" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="278.0" layoutY="68.0" prefHeight="74.0" prefWidth="164.0" text="SIGN UP" textAlignment="CENTER" textFill="WHITE" wrapText="true">
          <font>
             <Font name="Consolas Bold" size="36.0" />
          </font>
@@ -31,12 +34,12 @@
             <Font name="Consolas" size="18.0" />
          </font>
       </TextField>
-      <Label layoutX="260.0" layoutY="320.0" text="Not a user?" textFill="WHITE">
+      <Label layoutX="251.0" layoutY="321.0" text="Already a member?" textFill="WHITE">
          <font>
             <Font name="Consolas Bold" size="14.0" />
          </font>
       </Label>
-      <Button fx:id="fxbutton11" alignment="CENTER" contentDisplay="CENTER" layoutX="375.0" layoutY="312.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="34.0" prefWidth="85.0" style="-fx-background-color: black; -fx-border-width: 2;" text="SIGN UP" textAlignment="CENTER" textFill="#8b00ff" underline="true">
+      <Button fx:id="fxbutton11" alignment="CENTER" contentDisplay="CENTER" layoutX="382.0" layoutY="313.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="34.0" prefWidth="85.0" style="-fx-background-color: black; -fx-border-width: 2;" text="LOGIN" textAlignment="CENTER" textFill="#8b00ff" underline="true">
          <font>
             <Font name="Consolas Bold" size="14.0" />
          </font>
